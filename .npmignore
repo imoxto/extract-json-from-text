@@ -1,0 +1,7 @@
+.github
+coverage
+node_modules
+test
+.gitignore
+.npmignore
+.package-lock.json
