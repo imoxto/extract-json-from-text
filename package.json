@@ -1,6 +1,6 @@
 {
   "name": "extract-json-from-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "jest --coverage",
     "example": "node examples/index.js"
