@@ -1,5 +1,7 @@
 # Extract Json From Text
 
+Extract a JSON oboject or array from any piece of text
+
 ## Usage
 
 ### Install
