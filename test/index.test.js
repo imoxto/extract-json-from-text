@@ -1,4 +1,4 @@
-const { jsonFromText } = require("../index.js");
+const { jsonFromText } = require("../dist/index.js");
 const data = require("./data.json");
 
 describe("jsonFromText should work", () => {

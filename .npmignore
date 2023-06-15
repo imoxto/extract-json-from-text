@@ -6,3 +6,5 @@ test
 .npmignore
 .package-lock.json
 examples
+index.ts
+tsconfig.json

@@ -1,18 +1,18 @@
-"use strict";
-
 /**
  * @template T
  * @param {string} str
  * @param {"object"|"array"} type
  * @returns {T|null} JSON object or array
  */
-function jsonFromText(str, type = "object") {
+function jsonFromText(str: string, type = "object") {
   if (typeof str !== "string" || str === "") return null;
 
   const bracketOpen = type === "object" ? "{" : "[";
   const bracketClose = type === "object" ? "}" : "]";
 
-  let firstOpen, firstClose, candidate;
+  let firstOpen: number = 0,
+    firstClose: number,
+    candidate: string;
   firstOpen = str.indexOf(bracketOpen, firstOpen + 1);
   do {
     firstClose = str.lastIndexOf(bracketClose);
